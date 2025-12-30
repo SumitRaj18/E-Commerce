@@ -1,0 +1,210 @@
+const Sports={
+  "products": [
+    {
+      "id": 1001,
+      "name": "Pro-Grip Basketball Size 7",
+      "slug": "pro-grip-basketball-s7",
+      "price": 55.99,
+      "category": "Basketball",
+      "brand": "CourtKing",
+      "in_stock": true,
+      "rating": 4.7,
+      "description": "Premium composite leather for ultimate indoor/outdoor grip and feel.",
+      "image_url": "https://m.media-amazon.com/images/I/41tc+zRvNRL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 1002,
+      "name": "Carbon Fiber Tennis Racket X-10",
+      "slug": "carbon-tennis-racket-x10",
+      "price": 189.00,
+      "category": "Racket Sports",
+      "brand": "VolleyPro",
+      "in_stock": true,
+      "rating": 4.5,
+      "description": "Lightweight frame with a massive sweet spot for power and control.",
+      "image_url": "https://scssports.in/cdn/shop/files/wilson-blade-100-v9_535x.jpg?v=1730879331"
+    },
+    {
+      "id": 1003,
+      "name": "Ultra-Light Running Shoes V4",
+      "slug": "ultra-light-running-shoes-v4",
+      "price": 129.99,
+      "category": "Running",
+      "brand": "Speedster",
+      "in_stock": true,
+      "rating": 4.5,
+      "description": "Maximum cushioning with a breathable mesh upper for long-distance comfort.",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/running-shoes-005-68419d3f4376f.jpg?crop=1xw:0.84375xh;center,top&resize=1200:*"
+    },
+    {
+      "id": 1004,
+      "name": "High-Impact Yoga Mat 6mm",
+      "slug": "yoga-mat-6mm",
+      "price": 35.50,
+      "category": "Fitness",
+      "brand": "ZenFlow",
+      "in_stock": false,
+      "rating": 4.9,
+      "description": "Non-slip surface, 6mm thickness for joint support. Eco-friendly material.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUFNs5PBbpezqdingQ2JBwlh4o29B0qMMhNA&s"
+    },
+    {
+      "id": 1005,
+      "name": "Aluminum Folding Camping Chair",
+      "slug": "folding-camping-chair",
+      "price": 49.95,
+      "category": "Outdoor",
+      "brand": "TrailBlaze",
+      "in_stock": true,
+      "rating": 4.2,
+      "description": "Durable, lightweight chair for camping and sideline seating. Includes carrying bag.",
+      "image_url": "https://rukminim2.flixcart.com/image/480/640/xif0q/outdoor-chair/8/y/o/wrought-iron-folding-chair-star-work-big-khakhi-original-imagqxuhukqufc9s.jpeg?q=90"
+    },
+    {
+      "id": 1006,
+      "name": "Pro-Fit Football Cleats",
+      "slug": "pro-fit-football-cleats",
+      "price": 89.99,
+      "category": "Football",
+      "brand": "GridironGear",
+      "in_stock": true,
+      "rating": 4.6,
+      "description": "Engineered for speed and agility on natural grass and turf.",
+      "image_url": "https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/27894930/2024/3/21/75c4e684-f29a-40a9-9e2e-e0355f4978ef1711006926007VECTORXUnisexPrintedFixedCleatsLace-UpFootballShoes1.jpg"
+    },
+    {
+      "id": 1007,
+      "name": "Digital Stopwatch with Lap Timer",
+      "slug": "digital-stopwatch",
+      "price": 19.99,
+      "category": "Accessories",
+      "brand": "TimeMaster",
+      "in_stock": true,
+      "rating": 4.1,
+      "description": "Water-resistant stopwatch with split/lap time functionality.",
+      "image_url": "https://www.shutterstock.com/image-vector/realistic-digital-stopwatch-illustration-clock-600nw-2497921975.jpg"
+    },
+    {
+      "id": 1008,
+      "name": "Waterproof Hiking Backpack 40L",
+      "slug": "hiking-backpack-40l",
+      "price": 79.50,
+      "category": "Outdoor",
+      "brand": "TrailBlaze",
+      "in_stock": true,
+      "rating": 4.8,
+      "description": "40-liter capacity with comfortable lumbar support and rain cover.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqVU5myYvoEUh5s6xHMcbP9tjAWFuNfyT_Tg&s"
+    },
+    {
+      "id": 1009,
+      "name": "Resistance Band Set (5 Levels)",
+      "slug": "resistance-band-set",
+      "price": 24.99,
+      "category": "Fitness",
+      "brand": "FlexTrain",
+      "in_stock": true,
+      "rating": 4.7,
+      "description": "Set of 5 durable loop bands for strength and mobility training.",
+      "image_url": "https://m.media-amazon.com/images/I/61jI-MIOlzL.jpg"
+    },
+    {
+      "id": 1010,
+      "name": "Official Size 5 Soccer Ball",
+      "slug": "official-soccer-ball",
+      "price": 39.99,
+      "category": "Soccer",
+      "brand": "PitchMaster",
+      "in_stock": true,
+      "rating": 4.4,
+      "description": "Thermal-bonded panels for true flight and excellent water resistance.",
+      "image_url": "https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/JULY/16/ENkWWN3X_fdf64195c3494ae19af867e4c0753df5.jpg"
+    },
+    {
+      "id": 1011,
+      "name": "Adjustable Dumbbell Set (5-50 lbs)",
+      "slug": "adjustable-dumbbell-set",
+      "price": 299.00,
+      "category": "Fitness",
+      "brand": "IronVault",
+      "in_stock": false,
+      "rating": 4.9,
+      "description": "Quickly adjust weight from 5 to 50 lbs with a turn of the dial.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA8SH_Xp5dLOAkwBlO4pInN0uGKGh-wPgirw&s"
+    },
+    {
+      "id": 1012,
+      "name": "Swim Goggles Anti-Fog",
+      "slug": "swim-goggles-anti-fog",
+      "price": 22.00,
+      "category": "Swimming",
+      "brand": "AquaGlide",
+      "in_stock": true,
+      "rating": 4.3,
+      "description": "UV protection and anti-fog coated lenses for crystal clear vision.",
+      "image_url": "https://m.media-amazon.com/images/I/716mBZR0wAL.jpg"
+    },
+    {
+      "id": 1013,
+      "name": "Mountain Bike Helmet MIPS",
+      "slug": "bike-helmet-mips",
+      "price": 95.00,
+      "category": "Cycling",
+      "brand": "CycleSafe",
+      "in_stock": true,
+      "rating": 4.8,
+      "description": "Advanced MIPS technology for superior rotational impact protection.",
+      "image_url": "https://m.media-amazon.com/images/I/61C+CXVy85L.jpg"
+    },
+    {
+      "id": 1014,
+      "name": "Thermal Running Jacket (Men's)",
+      "slug": "thermal-running-jacket",
+      "price": 75.99,
+      "category": "Apparel",
+      "brand": "Speedster",
+      "in_stock": true,
+      "rating": 4.6,
+      "description": "Insulated fabric to keep you warm on winter runs. Reflective accents.",
+      "image_url": "https://brooksrunningindia.com/cdn/shop/products/211381_001_LF_All_Altitude_Jacket_720x.jpg?v=1655278865"
+    },
+    {
+      "id": 1015,
+      "name": "Badminton Shuttlecocks (Tube of 12)",
+      "slug": "badminton-shuttlecocks",
+      "price": 14.50,
+      "category": "Racket Sports",
+      "brand": "VolleyPro",
+      "in_stock": true,
+      "rating": 4.0,
+      "description": "Durable nylon skirts for excellent flight and longevity.",
+      "image_url": "https://img.freepik.com/free-photo/closeup-shuttlecock_53876-33670.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+      "id": 1016,
+      "name": "Baseball Bat - Alloy Youth",
+      "slug": "baseball-bat-alloy-youth",
+      "price": 65.00,
+      "category": "Baseball",
+      "brand": "DiamondSlugger",
+      "in_stock": true,
+      "rating": 4.5,
+      "description": "Lightweight alloy construction, perfect for youth leagues.",
+      "image_url": "https://img.freepik.com/free-vector/baseball-bat-ball_78370-9588.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+      "id": 1017,
+      "name": "Heavy Duty Punching Bag (100 lbs)",
+      "slug": "punching-bag-100lb",
+      "price": 149.99,
+      "category": "Martial Arts",
+      "brand": "FightForce",
+      "in_stock": true,
+      "rating": 4.7,
+      "description": "Filled and ready-to-hang bag for intense boxing and kickboxing workouts.",
+      "image_url": "https://m.media-amazon.com/images/I/51L1f6ZyaBL._AC_UF894,1000_QL80_.jpg"
+    }
+  ]
+ 
+}
+export default Sports;
