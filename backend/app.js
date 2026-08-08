@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended:false}))
  app.get('/api/sports',(req,res)=>{
     res.send(Sports);
  })
-app.get('/health',(req,res)=>{
+app.get('/api/health',(req,res)=>{
  return res.send("ok")
 })
  app.post('/api/signup',handleSignup);
