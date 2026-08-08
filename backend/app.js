@@ -21,12 +21,16 @@ app.use(express.urlencoded({extended:false}))
  app.get('/api/sports',(req,res)=>{
     res.send(Sports);
  })
+app.get('/health',(req,res)=>{
+ return res.send("ok")
+})
  app.post('/api/signup',handleSignup);
  app.post('/api/login',handleLogin);
  app.put('/api/update',handleEdit);
 app.post('/api/place',verifyToken, placeOrder);
 app.get('/api/user/:userId',verifyToken, getUserOrders);
 app.use('/api/',router)
+
 
 
 
